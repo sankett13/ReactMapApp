@@ -14,7 +14,6 @@ function App() {
   return (
     <>
       <Routes>
-        {/* <Route path="/" element={<Home />} /> */}
         <Route path="/" element={<Signup />} />
         <Route path="/login" element={<Login />}></Route>
         <Route
@@ -25,12 +24,7 @@ function App() {
             </MapElement>
           }
         />
-        {/* <Route path="/map" element={<MapPage />} /> */}
-        {/* <Route path="/protected" element={<ProtectedLogin />}>
-          <Route path="map" element={<MapPage />} />
-        </Route> */}
       </Routes>
-      {/* <Footer/> */}
     </>
   );
 }
